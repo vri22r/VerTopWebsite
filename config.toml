@@ -1,0 +1,192 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.VerTop.com/"
+languageCode = "en-US"
+title = "VerTop"
+
+# Metadata
+[params]
+  author = "Robert Veres"
+  description = "Topography Website"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/cover2.jpg"
+  title = "Text aici ptr site"
+  description = "SubText aici / daca trebuie"
+# Navigation section
+[params.nav]
+  mission = "Text/Scopul"
+  services = "Text"
+  team = "Echipa"
+  contact = "Contact"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img1.png"
+    [[params.mission.images.list]]
+      img = "images/img2.png"
+    [[params.mission.images.list]]
+      img = "images/img3.png" 
+    [[params.mission.images.list]]
+      img = "images/img4.png"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "Text1"
+    title = "Text1"
+    subtitle = "Titlu la descriere"
+    description = "<p>Descriere aici</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Text</a></p>"
+  
+  [[params.mission.item]]
+    weight = 2
+    name = "Text2"
+    title = "Text2"
+    subtitle = "Titlu la descriere"
+    description = "<p>Descriere aici</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Text</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "Text3"
+    title = "Text3"
+    subtitle = "Titlu la descriere"
+    description = "<p>Descriere aici</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Text</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/watch?v=i7AqwP7RvIU"
+  title = "Text titlu"
+  description = "Text descriere"
+
+  [[params.services.item]]
+     icon = ""
+    title = "Text Tiltu"
+    description = "Text."
+
+  [[params.services.item]]
+    icon = ""
+    title = "Text Tiltu"
+    description = "Text."
+
+  [[params.services.item]]
+     icon = ""
+    title = "Text Tiltu"
+    description = "Text."
+
+  [[params.services.item]]
+     icon = ""
+    title = "Text Tiltu"
+    description = "Text."
+
+  [[params.services.item]]
+     icon = ""
+    title = "Text Tiltu"
+    description = "Text."
+
+  [[params.services.item]]
+     icon = ""
+    title = "Text Tiltu"
+    description = "Text."
+
+# Work section
+[params.work]
+  enable = false
+  
+  [[params.work.item]]
+    title = "A"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Echipa"
+  description = "descriere"
+
+  [[params.team.item]]
+    name = "nume"
+    position = "Director"
+    description = "Descriere"
+    img = "images/Eric.jpg"
+    email = "#"
+
+  [[params.team.item]]
+    name = "nume"
+    position = "Muncitor"
+    description = "Descriere"
+    img = "images/szabi.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Contact"
+  message = "Mesaj/text"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small> All Rights Reserved. <br> Designed by Rob"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+  
